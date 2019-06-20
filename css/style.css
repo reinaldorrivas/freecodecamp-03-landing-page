@@ -33,7 +33,9 @@ header {
 
 header nav,
 header nav div,
-header nav ul {
+header nav ul,
+footer,
+footer > div:first-child {
     display: flex;
 }
 
@@ -49,7 +51,8 @@ header nav {
 }
 
 header nav div,
-header nav ul {
+header nav ul,
+footer > div:first-child {
     flex: 1 1 50%;
 }
 
@@ -58,12 +61,13 @@ header nav div {
     align-items: center;
 }
 
-header nav div img {
+header nav div img,
+footer > div:first-child img {
     width: 30px;
 }
 
-
-header nav div p {
+header nav div p,
+footer > div:first-child p {
     margin-left: 20px;
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
@@ -106,5 +110,34 @@ header section h1 {
     font-family: "Tusj", fantasy;
     font-size: 4rem;
     color: white;
+    text-shadow: 5px 5px 10px var(--background-and-fonts);
 }
 
+footer,
+footer > div:first-child {
+    justify-content: center;
+}
+
+footer {
+    height: 40vh;
+    align-items: flex-start;
+    background-color: #190A49;
+}
+
+footer > div:first-child {
+    margin-top: 6vh;
+}
+
+footer > div:last-child {
+
+}
+
+footer > div:last-child div{
+    
+}
+
+footer > div:last-child div p:nth-child(1){
+    color: var(--background-and-fonts);
+    background-color: #0F0432;
+    border-radius: 50%;
+}
