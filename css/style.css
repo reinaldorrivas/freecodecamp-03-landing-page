@@ -16,7 +16,7 @@
     --background-and-fonts: #FF0E3B;
 }
 
-* {
+*::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +35,10 @@ header nav,
 header nav div,
 header nav ul,
 footer,
-footer > div:first-child {
+footer > div:nth-child(1),
+footer > div:nth-child(2),
+footer > div:nth-child(2) div,
+footer > div:nth-child(2) div p:nth-child(1) {
     display: flex;
 }
 
@@ -51,9 +54,13 @@ header nav {
 }
 
 header nav div,
-header nav ul,
-footer > div:first-child {
+header nav ul {
     flex: 1 1 50%;
+}
+
+footer > div:nth-child(1),
+footer > div:nth-child(2) {
+    flex: 1 1 100%;
 }
 
 header nav div {
@@ -62,12 +69,12 @@ header nav div {
 }
 
 header nav div img,
-footer > div:first-child img {
+footer > div:nth-child(1) img {
     width: 30px;
 }
 
 header nav div p,
-footer > div:first-child p {
+footer > div:nth-child(1) p {
     margin-left: 20px;
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
@@ -85,7 +92,8 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li a {
+header nav ul li a,
+footer > div:nth-child(2) div p a {
     font-size: small;
     text-transform: uppercase;
     font-weight: bold;
@@ -94,7 +102,8 @@ header nav ul li a {
     transition: color ease-in-out 400ms;
 }
 
-header nav ul li a:hover {
+header nav ul li a:hover,
+footer > div:nth-child(2) div p a:hover {
     color: var(--background-and-fonts);
 }
 
@@ -114,30 +123,66 @@ header section h1 {
 }
 
 footer,
-footer > div:first-child {
+footer > div:nth-child(1) {
     justify-content: center;
 }
 
 footer {
-    height: 40vh;
+    min-height: 40vh;
+    flex-wrap: wrap;
     align-items: flex-start;
     background-color: #190A49;
 }
 
-footer > div:first-child {
-    margin-top: 6vh;
+footer > div:nth-child(1) {
+    margin: 6vh 0;
+    user-select: none;
 }
 
-footer > div:last-child {
-
+footer > div:nth-child(2) {
+    margin-bottom: 6vh;
 }
 
-footer > div:last-child div{
-    
+footer > div:nth-child(2) div{
+    flex: 1 1 33.33333333%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-footer > div:last-child div p:nth-child(1){
+footer > div:nth-child(2) div p {
+    margin-bottom: 2vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+footer > div:nth-child(2) div p:nth-child(1){
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
     color: var(--background-and-fonts);
     background-color: #0F0432;
     border-radius: 50%;
+}
+
+footer > div:nth-child(2) div p a {
+    color: rgba(255,255,255,.38);
+}
+
+footer > div:nth-child(3) p {
+    margin-bottom: 4vh;
+    font-size: x-small;
+    font-weight: bold;
+    color: rgba(255,255,255,.38);
+}
+
+footer > div:nth-child(2) div p:nth-child(3),
+footer > div:nth-child(2) div p:nth-child(4) {
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255,255,255,.38);
 }
