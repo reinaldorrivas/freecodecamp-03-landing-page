@@ -14,16 +14,16 @@
     <title>FCC: Landing Page</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
+    <header id="header">
+        <nav id="nav-bar">
+            <div id="header-img">
                 <img src="img/favicon/fav.png" alt="Logo de la Compañía">
                 <p>Lorem Ipsum</p>
             </div>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contáctenos</a></li>
+                <li><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li><a class="nav-link" href="#">Nosotros</a></li>
+                <li><a class="nav-link" href="#contacto">Contáctenos</a></li>
             </ul>
         </nav>
         <section>
@@ -33,7 +33,41 @@
     <main>
         <section>
             <div>
-                <h2>Información de Contacto</h2>
+                <img src="img/images/5c1f55cc2718bc6d134f000db1fcd41e.jpg" alt="Girl Photo">
+            </div>
+            <div>
+                <p>Nuestro Servicio</p>
+                <h2 id="inicio">Diseño Web Responsive</h2>
+
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nemo 
+                        quas quidem dolores? Quaerat, nostrum!
+                    </li>
+                    <li>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat obcaecati 
+                        maiores labore reiciendis, sequi distinctio adipisci dicta sed.
+                    </li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, quidem, 
+                        officiis nihil nesciunt aliquam veritatis possimus corporis tenetur ad fuga 
+                        ratione hic eligendi eos beatae.
+                    </li>
+                    <li>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae perferendis 
+                        libero voluptatum, dolorem porro laboriosam.
+                    </li>
+                </ul>
+                <div>
+                    <a href="#"><span>Leer Más</span></a>
+                </div>
+            </div>
+        </section>
+        <section>
+            
+        </section>
+        <section>
+            <div>
+                <h2 id="contacto">Información de Contacto</h2>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Deserunt rerum dignissimos eveniet adipisci, explicabo sit 
@@ -46,13 +80,13 @@
                     ad unde assumenda velit recusandae harum? Sint facere doloremque 
                     assumenda nulla temporibus? Asperiores?
                 </p>
-                <form action="" method="get">
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
                     <div>
                         <div>
                             <label id="name-label" for="name">Nombre: </label>
                         </div>
                         <div>
-                            <input type="text" name="name" id="name" placeholder="Nombre" required>
+                            <input type="text" name="name" id="name" placeholder="Su Nombre" disabled>
                         </div>
                     </div>
                     <div>
@@ -60,7 +94,7 @@
                             <label id="email-label"for="email">Email: </label>
                         </div>
                         <div>
-                            <input type="email" name="email" id="email" placeholder="you@example.com" required>
+                            <input id="email" type="email" name="email" id="email" placeholder="you@example.com" required>
                         </div>
                     </div>
                     <div>
@@ -68,7 +102,7 @@
                             <label id="number-label" for="number">Edad: </label>
                         </div>
                         <div>
-                            <input type="number" name="age" id="number" min="1" max="125" placeholder="Ej.: 30" required>
+                            <input type="number" name="age" id="number" min="1" max="125" placeholder="Ej.: 30" disabled>
                         </div>
                     </div>
                     <div>
