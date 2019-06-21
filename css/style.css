@@ -16,7 +16,7 @@
     --background-and-fonts: #FF0E3B;
 }
 
-*::after, ::before {
+*, ::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,6 +66,119 @@ footer > div:nth-child(2) {
 header nav div {
     flex: 1 1 50%;
     align-items: center;
+}
+
+main section {
+    display: flex;
+    min-height: 60vh;
+}
+
+main section div h2 {
+    text-align: center;
+    color: #2c2c2c;
+}
+
+main section div p {
+    padding: 0 4vw;
+    text-indent: 1rem;
+    text-align: justify;
+    color: #909090;
+}
+
+main section > div:first-child {
+    display: flex;
+    flex: 1 1 60%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main form div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+main form > div:last-child {
+    justify-content: center;
+}
+
+main form div div:first-child {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40%;
+    flex: 1 1 40%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+main form div div:last-child {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 60%;
+    flex: 1 1 60%;
+}
+
+button#submit {
+    position: relative;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: unset;
+    border: 2px solid var(--background-and-fonts);
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all ease 400ms;
+    transition: all ease 400ms;
+}
+
+button#submit::before {
+    position: absolute;
+    z-index: 1;
+    content: "";
+    background-color: var(--background-and-fonts);
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    top: -250px;
+    left: -440px;
+    width: 400px;
+    height: 400px;
+    -webkit-transition: all ease 400ms;
+    transition: all ease 400ms;
+}
+
+button#submit span {
+    position: relative;
+    z-index: 2;
+    color: var(--background-and-fonts);
+    -webkit-transition: all ease 400ms;
+    transition: all ease 400ms;
+}
+
+button#submit:hover span {
+    color: white;
+}
+
+button#submit:hover::before {
+    left: -300px;
+}
+
+main form div div:last-child input {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+main section > div:last-child {
+    flex: 1 1 40%;
+}
+
+main section > div:last-child iframe {
+    width: 100%;
+    height: 100%;
 }
 
 header nav div img,
