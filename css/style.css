@@ -104,8 +104,8 @@ main form > div:last-child {
 
 main form div div:first-child {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 40%;
-    flex: 1 1 40%;
+    -ms-flex: 1 1 35%;
+    flex: 1 1 35%;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
@@ -116,8 +116,8 @@ main form div div:first-child {
 
 main form div div:last-child {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 60%;
-    flex: 1 1 60%;
+    -ms-flex: 1 1 65%;
+    flex: 1 1 65%;
 }
 
 button#submit {
