@@ -592,9 +592,14 @@ input#submit {
 }
 
 @media only screen and (min-width: 480px) and (max-width:599px) {
+    body {
+        font-size: 14px;
+    }
+
     header nav {
         flex-wrap: wrap;
     }
+
     header nav div,
     header nav ul {
         flex-basis: 100%;
@@ -646,16 +651,12 @@ input#submit {
 }
 
 @media only screen and (min-width: 480px) and (max-width:599px) and (orientation: portrait) {
-    body {
-        font-size: 14px;
-    }
-
     header section h1 { 
         font-size: 2rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 1.1rem;
+        font-size: 2rem;
     }
 
     main section:nth-child(2) h2 {
@@ -664,10 +665,6 @@ input#submit {
 }
 
 @media only screen and (min-width: 480px) and (max-width:599px) and (orientation: landscape) {
-    body {
-        font-size: 16px;
-    }
-
     header section {
         height: 100vh;
     }
@@ -772,6 +769,10 @@ input#submit {
 }
 
 @media only screen and (min-width: 720px) and (max-width:839px) {
+    body {
+        font-size: 14px;
+    }
+
     header nav {
         flex-wrap: wrap;
     }
@@ -818,16 +819,12 @@ input#submit {
 }
 
 @media only screen and (min-width: 720px) and (max-width:839px) and (orientation: portrait) {
-    body {
-        font-size: 14px;
-    }
-
     header section h1 { 
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 1.1rem;
+        font-size: 2rem;
     }
 
     main section:nth-child(2) h2 {
@@ -836,10 +833,6 @@ input#submit {
 }
 
 @media only screen and (min-width: 720px) and (max-width:839px) and (orientation: landscape) {
-    body {
-        font-size: 16px;
-    }
-
     header section {
         height: 100vh;
     }
@@ -858,6 +851,10 @@ input#submit {
 }
 
 @media only screen and (min-width: 840px) and (max-width:959px) {
+    body {
+        font-size: 15px;
+    }
+
     header nav {
         flex-wrap: wrap;
     }
@@ -904,16 +901,12 @@ input#submit {
 }
 
 @media only screen and (min-width: 840px) and (max-width:959px) and (orientation: portrait) {
-    body {
-        font-size: 14px;
-    }
-
     header section h1 { 
         font-size: 2rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 1.1rem;
+        font-size: 2rem;
     }
 
     main section:nth-child(2) h2 {
@@ -922,10 +915,6 @@ input#submit {
 }
 
 @media only screen and (min-width: 840px) and (max-width:959px) and (orientation: landscape) {
-    body {
-        font-size: 16px;
-    }
-
     header section {
         height: 100vh;
     }
@@ -990,16 +979,12 @@ input#submit {
 }
 
 @media only screen and (min-width: 960px) and (max-width:1023px) and (orientation: portrait) {
-    body {
-        font-size: 14px;
-    }
-
     header section h1 { 
         font-size: 2rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 1.1rem;
+        font-size: 2rem;
     }
 
     main section:nth-child(2) h2 {
@@ -1008,10 +993,6 @@ input#submit {
 }
 
 @media only screen and (min-width: 960px) and (max-width:1023px) and (orientation: landscape) {
-    body {
-        font-size: 16px;
-    }
-
     header section {
         height: 100vh;
     }
@@ -1032,7 +1013,7 @@ input#submit {
 @media only screen and (min-width: 1024px) and (max-width:1279px) {
     header section {
         height: 70vh;
-        background-position: center 80px;
+        background-position: center top;
     }
 
     main section:nth-child(1) div:nth-child(1) {
@@ -1064,16 +1045,12 @@ input#submit {
 }
 
 @media only screen and (min-width: 1024px) and (max-width:1279px) and (orientation: portrait) {
-    body {
-        font-size: 14px;
-    }
-
     header section h1 { 
         font-size: 2rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 1.1rem;
+        font-size: 2rem;
     }
 
     main section:nth-child(2) h2 {
@@ -1082,10 +1059,6 @@ input#submit {
 }
 
 @media only screen and (min-width: 1024px) and (max-width:1279px) and (orientation: landscape) {
-    body {
-        font-size: 16px;
-    }
-
     header section {
         height: 100vh;
     }
