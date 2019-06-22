@@ -1030,10 +1030,6 @@ input#submit {
 }
 
 @media only screen and (min-width: 1024px) and (max-width:1279px) {
-    header nav div {
-        justify-content: center;
-    }
-
     header section {
         height: 70vh;
         background-position: center 80px;
