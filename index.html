@@ -16,13 +16,13 @@
 <body>
     <header id="header">
         <nav id="nav-bar">
-            <div id="header-img">
-                <img src="img/favicon/fav.png" alt="Logo de la Compañía">
+            <div>
+                <img id="header-img" src="img/favicon/fav.png" alt="Logo de la Compañía">
                 <p>Lorem Ipsum</p>
             </div>
             <ul>
                 <li><a class="nav-link" href="#inicio">Inicio</a></li>
-                <li><a class="nav-link" href="#">Nosotros</a></li>
+                <li><a class="nav-link" href="#nosotros">Nosotros</a></li>
                 <li><a class="nav-link" href="#contacto">Contáctenos</a></li>
             </ul>
         </nav>
@@ -33,7 +33,7 @@
     <main>
         <section>
             <div>
-                <img src="img/images/5c1f55cc2718bc6d134f000db1fcd41e.jpg" alt="Girl Photo">
+                <img src="img/images/imagen-2.jpeg" alt="Ale posando">
             </div>
             <div>
                 <p>Nuestro Servicio</p>
@@ -63,7 +63,8 @@
             </div>
         </section>
         <section>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/xBBjiVE6oyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 id="nosotros">Lorem, ipsum dolor.</h2>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Lh2GyQQGK8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
         <section>
             <div>
@@ -106,7 +107,8 @@
                         </div>
                     </div>
                     <div>
-                        <button id="submit" type="submit"><span>Enviar</span></button>
+                        <button type="submit"><span>Enviar</span></button>
+                        <input id="submit" type="submit" value="Enviar" disabled>
                     </div>
                 </form>
             </div>
@@ -144,5 +146,7 @@
             <p>Copyright &copy;2019 All rights reserved</p>
         </div>
     </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
