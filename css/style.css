@@ -828,7 +828,7 @@ input#submit {
     }
 
     main section:nth-child(2) h2 {
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 }
 
@@ -838,15 +838,15 @@ input#submit {
     }
 
     header section h1 { 
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     main section:nth-child(2) h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 }
 
@@ -920,15 +920,15 @@ input#submit {
     }
 
     header section h1 { 
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 
     main section:nth-child(2) h2 {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -980,7 +980,7 @@ input#submit {
 
 @media only screen and (min-width: 960px) and (max-width:1023px) and (orientation: portrait) {
     header section h1 { 
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
@@ -988,7 +988,7 @@ input#submit {
     }
 
     main section:nth-child(2) h2 {
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 }
 
@@ -998,15 +998,15 @@ input#submit {
     }
 
     header section h1 { 
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 
     main section:nth-child(2) h2 {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -1046,15 +1046,15 @@ input#submit {
 
 @media only screen and (min-width: 1024px) and (max-width:1279px) and (orientation: portrait) {
     header section h1 { 
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
-    main section:nth-child(2) h2 {
-        font-size: 1.3rem;
+    main section:nth-child(.5) h2 {
+        font-size: 2.5rem;
     }
 }
 
@@ -1064,14 +1064,14 @@ input#submit {
     }
 
     header section h1 { 
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
 
     main section:nth-child(1) div:nth-child(2) h2 {
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
 
     main section:nth-child(2) h2 {
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
 }
