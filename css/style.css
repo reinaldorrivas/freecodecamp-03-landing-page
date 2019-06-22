@@ -489,14 +489,19 @@ input#submit {
 
 @media only screen and (min-width: 320px) and (max-width:479px) {
     header nav {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     header nav div,
     header nav ul {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
     header nav div {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -519,10 +524,12 @@ input#submit {
     }
 
     footer > div:nth-child(2) {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
     footer > div:nth-child(2) div {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
@@ -548,16 +555,21 @@ input#submit {
     }
 
     main section div form div {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
     main section div form div div:first-child {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
         justify-content: flex-start;
         padding: 10px 20px;
     }
 
     main section div form div div:last-child {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding-left: 10px;
     }
@@ -568,7 +580,7 @@ input#submit {
         font-size: 14px;
     }
 
-    header section h1 { 
+    header section h1 {
         font-size: 2rem;
     }
 
@@ -590,7 +602,7 @@ input#submit {
         font-size: 16px;
     }
 
-    header section h1 { 
+    header section h1 {
         font-size: 3rem;
     }
 
@@ -613,15 +625,19 @@ input#submit {
     }
 
     header nav {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
     header nav div,
     header nav ul {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
     header nav div {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -644,10 +660,12 @@ input#submit {
     }
 
     footer > div:nth-child(2) {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
     footer > div:nth-child(2) div {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
@@ -673,7 +691,7 @@ input#submit {
 }
 
 @media only screen and (min-width: 480px) and (max-width:599px) and (orientation: portrait) {
-    header section h1 { 
+    header section h1 {
         font-size: 2rem;
     }
 
@@ -695,7 +713,7 @@ input#submit {
         height: 100vh;
     }
 
-    header section h1 { 
+    header section h1 {
         font-size: 3rem;
     }
 
@@ -714,14 +732,19 @@ input#submit {
 
 @media only screen and (min-width: 600px) and (max-width:719px) {
     header nav {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     header nav div,
     header nav ul {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
     header nav div {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -769,7 +792,7 @@ input#submit {
         font-size: 14px;
     }
 
-    header section h1 { 
+    header section h1 {
         font-size: 3.5rem;
     }
 
@@ -795,7 +818,7 @@ input#submit {
         height: 100vh;
     }
 
-    header section h1 { 
+    header section h1 {
         font-size: 3rem;
     }
 
@@ -818,14 +841,19 @@ input#submit {
     }
 
     header nav {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     header nav div,
     header nav ul {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
     header nav div {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -860,7 +888,7 @@ input#submit {
     main section:nth-child(3) > div:last-child {
         display: none;
     }
-    
+
     footer > div:nth-child(2) div p:nth-child(1) {
         width: 80px;
         height: 80px;
@@ -869,7 +897,7 @@ input#submit {
 }
 
 @media only screen and (min-width: 720px) and (max-width:839px) and (orientation: portrait) {
-    header section h1 { 
+    header section h1 {
         font-size: 4rem;
     }
 
@@ -887,7 +915,7 @@ input#submit {
         height: 100vh;
     }
 
-    header section h1 { 
+    header section h1 {
         font-size: 4rem;
     }
 
@@ -906,14 +934,19 @@ input#submit {
     }
 
     header nav {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     header nav div,
     header nav ul {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
     header nav div {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -951,7 +984,7 @@ input#submit {
 }
 
 @media only screen and (min-width: 840px) and (max-width:959px) and (orientation: portrait) {
-    header section h1 { 
+    header section h1 {
         font-size: 3rem;
     }
 
@@ -969,7 +1002,7 @@ input#submit {
         height: 100vh;
     }
 
-    header section h1 { 
+    header section h1 {
         font-size: 4.5rem;
     }
 
@@ -988,14 +1021,19 @@ input#submit {
 
 @media only screen and (min-width: 960px) and (max-width:1023px) {
     header nav {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+
     header nav div,
     header nav ul {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
     header nav div {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -1033,7 +1071,7 @@ input#submit {
 }
 
 @media only screen and (min-width: 960px) and (max-width:1023px) and (orientation: portrait) {
-    header section h1 { 
+    header section h1 {
         font-size: 3rem;
     }
 
@@ -1051,7 +1089,7 @@ input#submit {
         height: 100vh;
     }
 
-    header section h1 { 
+    header section h1 {
         font-size: 4rem;
     }
 
@@ -1103,7 +1141,7 @@ input#submit {
 }
 
 @media only screen and (min-width: 1024px) and (max-width:1279px) and (orientation: portrait) {
-    header section h1 { 
+    header section h1 {
         font-size: 4rem;
     }
 
@@ -1125,7 +1163,7 @@ input#submit {
         height: 100vh;
     }
 
-    header section h1 { 
+    header section h1 {
         font-size: 4.5rem;
     }
 
