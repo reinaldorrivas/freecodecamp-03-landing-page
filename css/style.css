@@ -1030,14 +1030,6 @@ input#submit {
 }
 
 @media only screen and (min-width: 1024px) and (max-width:1279px) {
-    header nav {
-        flex-wrap: wrap;
-    }
-    header nav div,
-    header nav ul {
-        flex-basis: 100%;
-    }
-
     header nav div {
         justify-content: center;
     }
