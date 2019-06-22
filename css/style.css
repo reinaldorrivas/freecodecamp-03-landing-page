@@ -223,7 +223,7 @@ main section:nth-child(3) > div:last-child {
 
 main section:nth-child(3) > div:last-child {
     margin: 1px;
-    background: url("../img/images/map-caracas.png") center / 1200px 655px no-repeat;
+    background: url("../img/images/map-caracas.png") center / 1200px 675px no-repeat;
 }
 
 header nav div img,
