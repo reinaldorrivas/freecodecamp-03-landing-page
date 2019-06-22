@@ -605,7 +605,7 @@ input#submit {
     }
 
     header section {
-        height: 100vh;
+        height: 80vh;
         background-position: center 80px;
     }
 
@@ -666,6 +666,10 @@ input#submit {
 @media only screen and (min-width: 480px) and (max-width:599px) and (orientation: landscape) {
     body {
         font-size: 16px;
+    }
+
+    header section {
+        height: 100vh;
     }
 
     header section h1 { 
@@ -748,6 +752,10 @@ input#submit {
 @media only screen and (min-width: 600px) and (max-width:719px) and (orientation: landscape) {
     body {
         font-size: 16px;
+    }
+
+    header section {
+        height: 100vh;
     }
 
     header section h1 { 
@@ -834,7 +842,6 @@ input#submit {
 
     header section {
         height: 100vh;
-        background-position: center 80px;
     }
 
     header section h1 { 
@@ -917,6 +924,96 @@ input#submit {
 @media only screen and (min-width: 840px) and (max-width:959px) and (orientation: landscape) {
     body {
         font-size: 16px;
+    }
+
+    header section {
+        height: 100vh;
+    }
+
+    header section h1 { 
+        font-size: 3rem;
+    }
+
+    main section:nth-child(1) div:nth-child(2) h2 {
+        font-size: 1.8rem;
+    }
+
+    main section:nth-child(2) h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width:1023px) {
+    header nav {
+        flex-wrap: wrap;
+    }
+    header nav div,
+    header nav ul {
+        flex-basis: 100%;
+    }
+
+    header nav div {
+        justify-content: center;
+    }
+
+    header section {
+        height: 70vh;
+        background-position: center 80px;
+    }
+
+    main section:nth-child(1) div:nth-child(1) {
+        display: none;
+    }
+
+    main section:nth-child(1) div:nth-child(2) {
+        padding: 90px 10px;
+    }
+
+    main section:nth-child(1) div:nth-child(2) ul {
+        padding: 0 35px;
+        list-style-position: inside;
+    }
+
+    main section:nth-child(2) video {
+        width: 95vw;
+        height: 55vh;
+    }
+
+    main section:nth-child(3) > div:first-child p {
+        text-indent: 1rem;
+        padding: 20px 1rem;
+    }
+
+    main section:nth-child(3) > div:last-child {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width:959px) and (orientation: portrait) {
+    body {
+        font-size: 14px;
+    }
+
+    header section h1 { 
+        font-size: 2rem;
+    }
+
+    main section:nth-child(1) div:nth-child(2) h2 {
+        font-size: 1.1rem;
+    }
+
+    main section:nth-child(2) h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width:959px) and (orientation: landscape) {
+    body {
+        font-size: 16px;
+    }
+
+    header section {
+        height: 100vh;
     }
 
     header section h1 { 
