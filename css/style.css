@@ -200,7 +200,7 @@ main section:nth-child(1) div:nth-child(2) a:hover span {
 
 button:hover::before,
 main section:nth-child(1) div:nth-child(2) a:hover::before {
-    left: -300px;
+    left: -350px;
 }
 
 main section div form div div:last-child input {
