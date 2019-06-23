@@ -282,8 +282,8 @@ header section {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 192, 203, 0.5)), to(rgba(0, 0, 255, 0.5))), url("../img/backgrounds/hero-img.jpeg") top center / cover no-repeat;
-    background: linear-gradient(to right, rgba(255, 192, 203, 0.5), rgba(0, 0, 255, 0.5)), url("../img/backgrounds/hero-img.jpeg") top center / cover no-repeat;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 192, 203, 0.5)), to(rgba(0, 0, 255, 0.5))), url("../img/backgrounds/hero-img-alternate.jpg") top center / cover no-repeat;
+    background: linear-gradient(to right, rgba(255, 192, 203, 0.5), rgba(0, 0, 255, 0.5)), url("../img/backgrounds/hero-img-alternate.jpg") top center / cover no-repeat;
 }
 
 header section h1 {
